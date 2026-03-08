@@ -3,7 +3,7 @@ import { Download, Mail, Github, Linkedin } from 'lucide-react';
 import Scene3D from './ui/Scene3D';
 import { Typewriter } from 'react-simple-typewriter';
 
-const resumePdf = new URL('../../assets/Lokesh_R_Shimpi_Resume.pdf', import.meta.url).href;
+const resumePdf = '/assets/Lokesh_R_Shimpi_Resume.pdf';
 
 const Hero = () => {
   const skills = [

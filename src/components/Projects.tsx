@@ -12,7 +12,7 @@ const Projects = () => {
     {
       title: 'SiteSnap Pro',
       description: 'SiteSnap Pro is a full-stack reliability dashboard that monitors ping latency, validates SSL certificates, and detects UI regressions using automated screenshots, leveraging a microservice architecture to eliminate server memory crashes.',
-      image: '../assets/sitesnap.jpg',
+      image: '/assets/sitesnap.jpg',
       tech: ['Node.js', 'Puppeteer-core', 'React', 'WebSockets'],
       github: 'https://github.com/Lokesh-Shimpi/SiteSnap-Pro',
       demo: 'https://sitesnap-pro.vercel.app/'
@@ -20,7 +20,7 @@ const Projects = () => {
     {
       title: 'k8s-deploy-helper',
       description: 'A tool designed to help build and deploy containerized applications into Kubernetes using GitLab CI. It supports automated secret management, canary deployments, and review apps with templated manifest files.',
-      image: '../assets/k8s.png',
+      image: '/assets/k8s.png',
       tech: ['Shell', 'Docker', 'Kubernetes', 'GitLab CI'],
       github: 'https://github.com/Lokesh-Shimpi/k8s-deploy-helper',
       demo: 'https://www.npmjs.com/package/k8s-deploy-helper'
@@ -29,7 +29,7 @@ const Projects = () => {
     {
       title: 'Artion AI',
       description: 'An AI-powered platform that allows users to effortlessly create and deploy web applications with smart automation and intuitive design tools.',
-      image: '../assets/artionai.png',
+      image: '/assets/artionai.png',
       tech: ['Node.js', 'Express', 'Gemini API', 'React'],
       github: 'https://github.com/Lokesh-Shimpi/ArtionAI',
       demo: 'https://artion-ai.vercel.app/'
@@ -37,7 +37,7 @@ const Projects = () => {
     {
       title: 'WorkVibe',
       description: 'Job searching and posting websites are online platforms where job seekers find openings and employers post vacancies. They offer tools like resume uploads, filters, alerts, and application tracking to streamline hiring and job hunting.',
-      image: '../assets/workvibe.png',
+      image: '/assets/workvibe.png',
       tech: ['Node.js', 'Express', 'Supabase', 'React'],
       github: 'https://github.com/Lokesh-Shimpi/WorkVibe',
       demo: 'https://work-vibe.vercel.app/'
@@ -45,7 +45,7 @@ const Projects = () => {
     {
       title: 'AI Code Reviewer',
       description: 'An AI-powered platform that reviews code, detects issues, and suggests improvements.',
-      image: '../assets/coderev.png',
+      image: '/assets/coderev.png',
       tech: ['React', 'Node.js', 'Express', 'Gemini API'],
       category: '',
       github: 'https://github.com/Lokesh-Shimpi/Ai_Code_Reviewer',
@@ -54,7 +54,7 @@ const Projects = () => {
     {
       title: 'TastyExplorer',
       description: 'A recipe finder with a weekly meal planner to discover dishes and plan meals effortlessly',
-      image: '../assets/teastyex.png',
+      image: '/assets/teastyex.png',
       tech: ['React', 'Node.js'],
       github: 'https://github.com/Lokesh-Shimpi/Recipe-Finder',
       demo: 'http://recipe-finder-nine-ruddy.vercel.app/'
